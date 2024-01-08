@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "synced-in",
+    "slug": "synced-in",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "synced-in",
+    "backgroundColor": "#1d2125",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1d2125"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1d2125"
+      },
+      "package": "com.rachitbharadwaj.syncedin"
+    },
+    "web": {},
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ed256668-51c5-43d1-bc31-488ec16bad92"
+      }
+    }
+  }
+}
